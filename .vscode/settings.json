@@ -1,0 +1,21 @@
+{
+  "editor.formatOnSave": true,
+  "rust-analyzer.check.command": "clippy",
+  "[rust]": {
+    "editor.rulers": [
+      100
+    ]
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "[sql]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "bradymholt.pgformatter"
+  },
+  "pgFormatter.commaBreak": true,
+  "pgFormatter.noExtraLine": true,
+  "rust-analyzer.cargo.buildScripts.enable": false,
+  "rust-analyzer.cargo.features": "all",
+  "editor.fontSize": 16
+}

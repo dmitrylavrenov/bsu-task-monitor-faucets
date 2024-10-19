@@ -1,0 +1,11 @@
+[workspace]
+resolver = "2"
+members = ["crates/*"]
+
+[workspace.package]
+rust-version = "1.76"
+version = "0.1.0"
+edition = "2021"
+authors = ["dl"]
+
+[workspace.dependencies]

@@ -1,0 +1,5 @@
+target/
+.env
+.cargo/git
+.cargo/registry
+.cargo/.package-cache
